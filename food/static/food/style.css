@@ -1,0 +1,144 @@
+body{
+    background-color: rgb(205, 226, 245);
+}
+
+.message-container {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fff;
+    border: 2px solid #ccc;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.message-container {
+    /* ... your existing styles ... */
+    opacity: 0; /* Start with 0 opacity */
+    animation: fadeInOut 5s forwards; /* Apply the fade-in-out animation */
+}
+
+@keyframes fadeInOut {
+    0% {
+        opacity: 0; /* Start with 0 opacity */
+    }
+    20% {
+        opacity: 1; /* Fade in over first 20% of animation */
+    }
+    80% {
+        opacity: 1; /* Stay fully opaque for middle 60% of animation */
+    }
+    100% {
+        opacity: 0; /* Fade out over last 20% of animation */
+    }
+}
+
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+}
+
+/* Custom CSS for input fields */
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+/* Style for labels */
+.form-group label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+/* Style for the button */
+.btn-info {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    background-color: #17a2b8; /* Bootstrap's primary color */
+    color: #fff;
+}
+
+/* Style for invalid feedback */
+.invalid-feedback {
+    color: #dc3545; /* Bootstrap's danger color */
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.btn-info {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    background-color: #17a2b8; /* Bootstrap's primary color */
+    color: #fff;
+    display: block;
+    margin: 0 auto;
+}
+
+.btn-info:hover {
+    background-color: #138496; /* Darker shade for hover effect */
+}
+
+* Style for input fields */
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Style for labels */
+.form-group label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+/* Style for the button */
+.btn-success {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: #28a745; /* Bootstrap's success color */
+    color: #fff;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Style for invalid feedback */
+.invalid-feedback {
+    color: #dc3545; /* Bootstrap's danger color */
+    font-size: 14px;
+    margin-top: 5px;
+}
